@@ -237,16 +237,18 @@ void precision(int a) { cout << setprecision(a) << fixed; }
 
 void solve()
 {
-   string s;cin>>s;
-   cout<<s;
-   debug(s)
+    string s1,s2,s3;
+    cin>>s1>>s2>>s3;
+    cout<<s1<<nline;
+    cout<<s2<<nline;
+    cout<<s3<<nline;
 }
 
 int main()
 {
 #ifndef ONLINE_JUDGE
   freopen("input.txt", "r", stdin);
-  freopen("output.txt", "w", stdout);
+  // freopen("output.txt", "w", stdout);
   freopen("error.txt", "w", stderr);
 #endif
   fastio();
